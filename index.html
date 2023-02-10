@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Number Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="select-div">
+
+            <div class="param">
+
+                <h5>From</h5>
+                <select name="" id="from" class="select">
+                    <option value="binary" selected>Binary</option>
+                    <option value="decimal">Decimal</option>
+                </select>
+            </div>
+            <div class="param">
+
+                <h5>To</h5>
+                <select name="" id="to" class="select">
+                    <option value="decimal" selected>Decimal</option>
+                    <option value="binary">Binary</option>
+                </select>
+            </div>
+        </div>
+        <div class="input-group mb-3 mt-3">
+            <input type="number" id="inp" class="form-control input" placeholder="" aria-label="Recipient's username"
+                aria-describedby="basic-addon2" value="">
+            <span class="input-group-text" id="basic-addon2">2</span>
+        </div>
+        <button type="button" id="convert" class="btn btn-success"><span>=</span> Convert</button>
+        <button type="button" id="reset" class="btn btn-secondary"> <span>x</span> Reset</button>
+        <button type="button" id="swap" class="btn btn-secondary"><span>⇅</span> Swap</button>
+        <div class="input-group mt-4">
+            <textarea class="form-control input" id="answer" aria-label="With textarea" disabled></textarea>
+            <span class="input-group-text" id="ans-span">10</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
