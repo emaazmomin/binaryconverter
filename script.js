@@ -66,6 +66,12 @@ convert.addEventListener('click', e => {
         }
         document.getElementById('answer').innerHTML = answer;
     }
+    else{
+        document.getElementById('alert').innerHTML = `<div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>From & To values are same!</strong> Please select different values in From and To
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>`;
+    }
 });
 
 //swapping the input parameter

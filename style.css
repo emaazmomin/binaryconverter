@@ -1,27 +1,129 @@
-.container{
+.container {
     /* border: 2px solid black; */
     border: 1px solid rgb(226, 224, 224);
-    border-radius:5px ;
+    border-radius: 5px;
     height: 353px;
     width: 500px;
     background-color: #f0eedc;
-    
+
 }
 
-.param{
+.param {
     /* border: 2px solid black; */
     height: 100px;
     width: 500px;
     margin-top: 20px;
 }
-.select{
+
+.select {
     width: 200px;
     height: 40px;
     border: 1px solid black;
     color: grey;
     border-radius: 3px;
 }
-.select-div{
+
+.select-div {
     display: flex;
     justify-content: center;
+}
+@media only screen and (min-width:350px) and (max-width:365px) {
+    .container {
+        height: 357px;
+        width: 351px;
+        position: absolute;
+        top: 110px;
+        left: 5px;
+    }
+    
+    .param {
+        width: 162px;
+    }
+
+    .select {
+        width: 150px;
+    }
+    .opt{
+        /* width: 10px; */
+        font-size: 13px;
+        background-color: black;
+        color: aliceblue;
+        max-width: 50px;
+        height: 10px;
+    }
+}
+@media only screen and (min-width:365px) and (max-width:376px) {
+    .container {
+        height: 357px;
+        width: 366px;
+        position: absolute;
+        top: 110px;
+        left: 5px;
+    }
+
+    .param {
+        width: 178px;
+    }
+
+    .select {
+        width: 159px;
+    }
+    .opt{
+        /* width: 10px; */
+        font-size: 13px;
+        background-color: black;
+        color: aliceblue;
+        max-width: 50px;
+        height: 10px;
+    }
+}
+@media only screen and (min-width:376px) and (max-width:394px){
+    .container {
+        height: 357px;
+        width: 375px;
+        position: absolute;
+        top: 110px;
+        left: 9px;
+    }
+
+    .param {
+        width: 178px;
+    }
+
+    .select {
+        width: 159px;
+    }
+    .opt{
+        /* width: 10px; */
+        font-size: 13px;
+        background-color: black;
+        color: aliceblue;
+        max-width: 50px;
+        height: 10px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:415px) {
+    .container {
+        height: 357px;
+        width: 388px;
+        position: absolute;
+        top: 110px;
+        left: 13px;
+    }
+
+    .param {
+        width: 178px;
+    }
+
+    .select {
+        width: 159px;
+    }
+    .opt{
+        /* width: 10px; */
+        font-size: 13px;
+        background-color: black;
+        color: aliceblue;
+        max-width: 50px;
+        height: 10px;
+    }
 }
